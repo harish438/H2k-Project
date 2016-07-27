@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="H2kFinalProject1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/styles/stylesheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <center>
+            <table style="width:1024px;height:768px;border="2">
+                <tr>
+                    <td colspan="2" style="height:70px;background:url(images/track.jpg);color:springgreen">
+                        <center><h1><marquee><u>H2K FINAL PROJECT</u></marquee></h1></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height:590px;width:200px;background-color:goldenrod">
+                        <center><a href="HomePage.aspx"><h3>HomePage</h3></a></center></br>
+                        <center><a href="login.aspx"><h3>Login</h3></a></center></br>
+                        <center><a href="factorial.aspx"><h3>Factorial</h3></a></center></br>
+                        <center><a href="primecheck.aspx"><h3>Prime Number Check</h3></a></center></br>
+                        <center><a href="Addition.aspx"><h3>Addition</h3></a></center></br>
+                       <center><a href="multiplication.aspx"><h3>Multiplication</h3></a></center></br>
+                    </td>
+                    <td style="padding-bottom:300px">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table" colspan="2" style="height:108px;background-color:black;color:whitesmoke">
+                        <center><h2>&copy 2016, Harish Reddy Nerella</h2></center>
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </div>
+    </form>
+</body>
+</html>

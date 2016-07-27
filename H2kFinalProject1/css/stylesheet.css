@@ -1,0 +1,9 @@
+﻿body {
+    
+}
+#table
+{
+    background-image:url(images/bike.jpg);
+    background-repeat:no-repeat;
+    background-size:cover
+}
